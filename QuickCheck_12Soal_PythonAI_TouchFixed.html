@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <title>Quick Check - 12 Soal Interaktif Python AI (Touch-fixed)</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; max-width: 760px; margin: auto; background: #f8f9fb; color: #111; }
+    .card { background: white; padding: 18px; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.08); margin-bottom: 14px; }
+    h1 { font-size: 22px; color: #1f2937; }
+    .q { margin-bottom: 14px; }
+    .btn { background:#1f8dd6; color:white; padding:10px 18px; border:none; border-radius:6px; cursor:pointer; font-size:16px; }
+    .btn:hover { background:#1669ad; }
+    .result { font-weight: bold; margin-top: 20px; font-size: 18px; }
+    .feedback { margin-top:10px; color: #064e3b; }
+    label { display:block; margin:6px 0; cursor:pointer; }
+    progress { width: 100%; height: 16px; border-radius: 8px; }
+    .note { font-size: 13px; color: #334155; margin-top: 8px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Quick Check — 12 Soal Interaktif: Dasar Pemrograman Python untuk AI</h1>
+    <p>Jawab semua soal lalu tekan <strong>Submit</strong>. Anda akan langsung melihat skor dan pembahasan.</p>
+    <div id="warning" class="note" style="display:none;color:#dc2626">JavaScript tidak aktif atau diblokir. Buka file ini dengan Chrome/Edge (jangan dari preview Drive).</div>
+    <form id="quiz">
+<div class="q"><p><strong>1. Python digunakan dalam bidang kecerdasan artifisial karena …</strong></p><label><input type="radio" name="q1" value="a"> a. Sintaksnya rumit dan sulit dipelajari</label><label><input type="radio" name="q1" value="b"> b. Banyak library yang mendukung AI</label><label><input type="radio" name="q1" value="c"> c. Tidak mendukung analisis data</label></div><div class="q"><p><strong>2. Apa fungsi dari variabel dalam Python?</strong></p><label><input type="radio" name="q2" value="a"> a. Menyimpan data yang dapat digunakan ulang</label><label><input type="radio" name="q2" value="b"> b. Menjalankan perulangan</label><label><input type="radio" name="q2" value="c"> c. Menampilkan grafik</label></div><div class="q"><p><strong>3. Pernyataan if–else termasuk dalam …</strong></p><label><input type="radio" name="q3" value="a"> a. Struktur kontrol</label><label><input type="radio" name="q3" value="b"> b. Fungsi</label><label><input type="radio" name="q3" value="c"> c. Variabel</label></div><div class="q"><p><strong>4. Fungsi dalam Python digunakan untuk …</strong></p><label><input type="radio" name="q4" value="a"> a. Menyimpan data</label><label><input type="radio" name="q4" value="b"> b. Menjalankan kumpulan perintah tertentu</label><label><input type="radio" name="q4" value="c"> c. Membuat kondisi percabangan</label></div><div class="q"><p><strong>5. Kata kunci untuk membuat fungsi di Python adalah …</strong></p><label><input type="radio" name="q5" value="a"> a. def</label><label><input type="radio" name="q5" value="b"> b. for</label><label><input type="radio" name="q5" value="c"> c. while</label></div><div class="q"><p><strong>6. Struktur kontrol membantu komputer untuk …</strong></p><label><input type="radio" name="q6" value="a"> a. Mengambil keputusan berdasarkan kondisi</label><label><input type="radio" name="q6" value="b"> b. Menyimpan data</label><label><input type="radio" name="q6" value="c"> c. Menampilkan teks</label></div><div class="q"><p><strong>7. Output dari kode print('Halo Dunia AI!') adalah …</strong></p><label><input type="radio" name="q7" value="a"> a. Halo Dunia AI!</label><label><input type="radio" name="q7" value="b"> b. 'Halo Dunia AI!'</label><label><input type="radio" name="q7" value="c"> c. Error</label></div><div class="q"><p><strong>8. Dalam Python, tanda # digunakan untuk …</strong></p><label><input type="radio" name="q8" value="a"> a. Menandai komentar</label><label><input type="radio" name="q8" value="b"> b. Menjalankan perintah</label><label><input type="radio" name="q8" value="c"> c. Mengulang kode</label></div><div class="q"><p><strong>9. Apa hasil dari kode berikut?<br><pre>x = 5<br>if x > 3:<br>    print('Benar')<br>else:<br>    print('Salah')</pre></strong></p><label><input type="radio" name="q9" value="a"> a. Benar</label><label><input type="radio" name="q9" value="b"> b. Salah</label><label><input type="radio" name="q9" value="c"> c. Error</label></div><div class="q"><p><strong>10. Fungsi berikut menghasilkan apa?<br><pre>def sapa(nama):<br>    return 'Halo ' + nama<br>print(sapa('Edi'))</pre></strong></p><label><input type="radio" name="q10" value="a"> a. Halo Edi</label><label><input type="radio" name="q10" value="b"> b. Error</label><label><input type="radio" name="q10" value="c"> c. nama</label></div><div class="q"><p><strong>11. Contoh penerapan Python di bidang otomotif adalah …</strong></p><label><input type="radio" name="q11" value="a"> a. Mengontrol sensor kendaraan dan menganalisis data mesin</label><label><input type="radio" name="q11" value="b"> b. Mendesain pakaian digital</label><label><input type="radio" name="q11" value="c"> c. Mengolah resep kuliner</label></div><div class="q"><p><strong>12. Mengapa mempelajari dasar Python penting untuk AI?</strong></p><label><input type="radio" name="q12" value="a"> a. Karena Python digunakan dalam pengembangan AI modern</label><label><input type="radio" name="q12" value="b"> b. Karena sulit dipahami</label><label><input type="radio" name="q12" value="c"> c. Karena hanya digunakan untuk game</label></div>
+      <button id="submitBtn" type="button" class="btn">Submit</button>
+    </form>
+    <div id="output" class="result"></div>
+    <progress id="progressBar" value="0" max="100" style="display:block;margin-top:10px"></progress>
+    <div id="detail" class="feedback"></div>
+  </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Periksa apakah JavaScript berjalan
+  document.getElementById('warning').style.display = 'none';
+
+  const answers = {q1:'b',q2:'a',q3:'a',q4:'b',q5:'a',q6:'a',q7:'a',q8:'a',q9:'a',q10:'a',q11:'a',q12:'a'};
+  function evaluate(){ 
+    let score = 0;
+    let total = 12;
+    let detail = '';
+    for(let i=1;i<=12;i++){ 
+      const val = document.querySelector('input[name=q'+i+']:checked');
+      const user = val ? val.value : null;
+      if(user === answers['q'+i]) { score += 1; }
+      detail += '<p><strong>Soal '+i+':</strong> ' + (user === answers['q'+i] ? '<span style="color:green">Benar</span>' : '<span style="color:red">Salah</span>') + '</p>';
+    }
+    const percent = Math.round((score/total)*100);
+    document.getElementById('output').innerHTML = 'Skor: ' + score + ' / ' + total + ' (' + percent + '%)';
+    document.getElementById('progressBar').value = percent;
+    let explanations = '<p><em>Pembahasan:</em></p>';
+    explanations += '<p>1. Python mudah dipelajari dan memiliki banyak library seperti NumPy, TensorFlow, dan Pandas.</p>';
+    explanations += '<p>2. Variabel menyimpan nilai untuk digunakan berulang kali dalam program.</p>';
+    explanations += '<p>3. If–else adalah struktur kontrol untuk pengambilan keputusan.</p>';
+    explanations += '<p>4. Fungsi mengelompokkan kode agar bisa digunakan berulang dan mudah dibaca.</p>';
+    explanations += '<p>5. Fungsi dibuat dengan kata kunci def diikuti nama fungsi.</p>';
+    explanations += '<p>6. Struktur kontrol memungkinkan program berpikir secara logis sesuai kondisi.</p>';
+    explanations += '<p>7. Fungsi print() digunakan untuk menampilkan teks ke layar.</p>';
+    explanations += '<p>8. Tanda # digunakan untuk memberi komentar atau catatan di kode.</p>';
+    explanations += '<p>9. Karena x = 5 lebih besar dari 3, maka kondisi if terpenuhi dan mencetak \'Benar\'.</p>';
+    explanations += '<p>10. Fungsi sapa mengembalikan string \'Halo \' + nama yang dipanggil dengan argumen \'Edi\'.</p>';
+    explanations += '<p>11. Python digunakan di otomotif untuk membaca sensor dan menganalisis performa kendaraan.</p>';
+    explanations += '<p>12. Python adalah bahasa utama dalam pengembangan AI, machine learning, dan data science.</p>';
+
+    document.getElementById('detail').innerHTML = detail + explanations;
+  }
+
+  const submitBtn = document.getElementById('submitBtn');
+  // Tambahkan beberapa event listener (click dan touchstart) untuk kompatibilitas mobile
+  submitBtn.addEventListener('click', function(e){{ evaluate(); }});
+  submitBtn.addEventListener('touchstart', function(e){{ e.preventDefault(); evaluate(); }});
+
+  // Fallback: jika JS diblokir, tunjukkan pesan
+  setTimeout(function(){{
+    if(typeof submitBtn === 'undefined'){{ 
+      document.getElementById('warning').style.display = 'block';
+    }}
+  }}, 800);
+}});
+</script>
+</body>
+</html>
